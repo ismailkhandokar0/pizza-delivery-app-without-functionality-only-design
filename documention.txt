@@ -1,0 +1,51 @@
+// yarn use korbo, npm chaile use korte pari, but yarn npm theke fast , tai yarn use korci
+
+
+
+// File Sturcture 
+
+
+        * first public folder create korbo, ai folder a image, css file thakbe 
+        * , http folder middleware, controller thakbe  
+        *config folder authentication er jonno user password thakbe
+        *resources folder a template thakbe, uncomplied file complie kore public folder a rakbe  
+
+
+
+        file structure example:
+
+                app
+                    config
+                    http
+                        controller
+                        middleware
+                    models
+
+                js
+                    app.js
+                    
+                public
+                    css
+                        app.css
+                    img
+
+                resources
+                    js
+                        app.js
+                    scss
+                        app.scss
+                    views
+
+                routes
+                    api.js
+                    web.js
+
+
+
+////  ( npm install express  )            ----     (  yarn add express)    ;;; npm and yarn er modde  different ta aitoko
+
+
+        // yarn problem solved
+
+
+                yarn jodi app install na hoy, error dekhay, tahole package.json theke name ta kete felle problem solve hoye jabe, Insha Allah
