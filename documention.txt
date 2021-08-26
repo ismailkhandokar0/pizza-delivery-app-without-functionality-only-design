@@ -49,3 +49,36 @@
 
 
                 yarn jodi app install na hoy, error dekhay, tahole package.json theke name ta kete felle problem solve hoye jabe, Insha Allah
+
+
+
+
+
+                ////////////////////  project detail  start  //////////////////////////////////////////////
+
+
+// laravel mix::- er maddome web-pack install kora jay. laravel-mix official webiste " stand-along project "  section ta amra follow korbo
+// laravel mix documentation follow kore " webpack.mix.js " file create kore er modde documentation er code input korte hobe
+// amra ai project a sass use korbo, sass k config korar jonno   "  webpack.mix.js " file a , 
+
+             mix.js('kon file compile korbo--only javascript', 'compiled file kon file a store hobe--only javascript').sass('scss file','scss file kon css file a store hobe')
+             
+
+            webpack.mix.js a nicher file ta likte hobe:
+
+                    mix.js('resources/js/app.js', 'public/js/app.js').sass('resources/scss/app.scss', 'public/css/app.css')
+
+
+
+                // NPM Scripts   
+
+
+        https://laravel-mix.com/docs/5.0/installation   ai link theke (documentation) npm scripts and env ta nite hobe
+
+        Note:  Error asle error ta valo moto porlei solve hoye jabe. --hide-modules  aita remove kore dilei sob tik hoye jabe
+
+
+
+        // main file
+
+//  server.js amader main file. akan theke sob data serve hobe
