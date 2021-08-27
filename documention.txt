@@ -2,7 +2,7 @@
 
 
 
-// File Sturcture 
+             **class:2   //////////////////////////////// File Sturcture 
 
 
         * first public folder create korbo, ai folder a image, css file thakbe 
@@ -54,7 +54,7 @@
 
 
 
-                ////////////////////  project detail  start  //////////////////////////////////////////////
+        **class:3        ////////////////////  project detail  start  //////////////////////////////////////////////
 
 
 // laravel mix::- er maddome web-pack install kora jay. laravel-mix official webiste " stand-along project "  section ta amra follow korbo
@@ -70,7 +70,9 @@
 
 
 
-                // NPM Scripts   
+
+
+                                              //////////////////////////////////////// NPM Scripts   //////////////////////////////////////////
 
 
         https://laravel-mix.com/docs/5.0/installation   ai link theke (documentation) npm scripts and env ta nite hobe
@@ -79,6 +81,35 @@
 
 
 
-        // main file
+
+
+
+                         ////////////////////////////// main file  /////////////////////////////////////////
 
 //  server.js amader main file. akan theke sob data serve hobe
+
+
+
+
+Ai project a tailwind css use korbo, cdn link er maddome
+
+
+
+
+
+                ****class:4   ////////////////// home page design      ////////////////////////////////
+
+                ** potome amra color variable create korbo, er jonno amra akta partial file korbo _variables.scss nam diye, file resources/scss er modde thakbe
+                ** _variables.scss file k app.scss er sate link korte hobe .  app.scss import :      @import './variable'
+
+                Note: favicon : public/js er modde favicon.ico file ta browser default favicon hisabe show kore, tai kono img k favicon hisabe dite chaile online er maddome img ta favicon.ico file a convert kore public/js/ er modde raklei hobe
+
+
+
+
+
+
+
+
+
+                

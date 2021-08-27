@@ -12,8 +12,13 @@ const app = express()
 app.set('views',path.join(__dirname,'/resources/views'))
 app.set('view engine','ejs')
 
+//assets
+app.use(express.static('public'))
 
 
+app.get('/',(req,res,next) =>{
+    res.render('home')
+})
 
 
 let PORT = process.env.PORT || 6500
