@@ -1,4 +1,58 @@
-$primaryco : red;
+
+//import variable
+@import './variables';
+
 body{
-    color: black;
+    font-family: 'lato', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    height:400vh
+}
+
+nav {
+    li{
+        &:last-child {
+            a{
+                background:$primary;
+                &:hover{
+                    background:$primary-hover;
+                }
+            }
+        }
+        a{
+            font-weight:bold;
+            transition: $smooth;
+            &:hover{
+                color:$primary-hover;
+            }
+        }
+    }
+}
+
+section{
+    &.hero{
+        background:$secondary;
+        a{
+            &.btn{
+                background:$primary;
+                color:$pure;
+                &:hover{
+                    background:$primary-hover;
+                }
+            }
+        }
+    }
+}
+
+span.size{
+    background:$secondary;
+}
+
+.add-to-cart{
+    border:2px solid $primary;
+    color:$primary;
+    transition: $smooth;
+    &:hover{
+        background:$primary;
+        color:$pure;
+    }
 }
