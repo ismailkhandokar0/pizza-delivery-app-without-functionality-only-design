@@ -107,9 +107,15 @@ Ai project a tailwind css use korbo, cdn link er maddome
 
 
 
+               **class:5  /////////////////////////////  layout.ejs  ///////////////////////
 
+               * views directory te layout.ejs thakbe, er modde amader oi sokol code thakbe, jeta sob page a repeat hobe
+                * layout.ejs ta express-ejs-layout provide kore
+                * layout.ejs er jekane code bosbe sekane <%- body %> lik lei cholbe, r kono change korte hobe na and r kono jaygay kicoi configure korte hobe na, ata otomatic sob page a show korbe
 
+                * amader joto gula page dorker login and register soho, sob gula page age create kore nibo
 
-
+                *  min-height: calc(100vh-86px);  css property scss file use kora hoice
+                * https://tailwindui.com/ ai link theke login and register form copy paste kora hoise
 
                 

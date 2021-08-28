@@ -2,10 +2,22 @@
 //import variable
 @import './variables';
 
+
+.primaryClass{
+    color:$primary;
+}
+
 body{
     font-family: 'lato', sans-serif;
     -webkit-font-smoothing:antialiased;
-    height:400vh
+}
+
+.bttn{
+    background:$primary;
+    color:$pure;
+    &:hover{
+        background:$primary-hover;
+    }
 }
 
 nav {
@@ -41,6 +53,20 @@ section{
             }
         }
     }
+
+    &.cart{
+        background:$secondary;
+        .amount{
+            color:$primary;
+        }
+    }
+
+    
+}
+
+.loggin{
+    min-height:calc(100vh - 100px);
+    background:$secondary;
 }
 
 span.size{
@@ -55,4 +81,9 @@ span.size{
         background:$primary;
         color:$pure;
     }
+}
+
+// only for signup account page, coz tailwind css not working properly
+input#email-address {
+    margin-bottom: 24px;
 }

@@ -1,7 +1,18 @@
+.primaryClass {
+  color: #FE5F1E;
+}
+
 body {
   font-family: "lato", sans-serif;
   -webkit-font-smoothing: antialiased;
-  height: 400vh;
+}
+
+.bttn {
+  background: #FE5F1E;
+  color: #fff;
+}
+.bttn:hover {
+  background: #b23301;
 }
 
 nav li:last-child a {
@@ -28,6 +39,17 @@ section.hero a.btn {
 section.hero a.btn:hover {
   background: #b23301;
 }
+section.cart {
+  background: #F8F8F8;
+}
+section.cart .amount {
+  color: #FE5F1E;
+}
+
+.loggin {
+  min-height: calc(100vh - 100px);
+  background: #F8F8F8;
+}
 
 span.size {
   background: #F8F8F8;
@@ -41,4 +63,8 @@ span.size {
 .add-to-cart:hover {
   background: #FE5F1E;
   color: #fff;
+}
+
+input#email-address {
+  margin-bottom: 24px;
 }
